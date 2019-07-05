@@ -17,6 +17,17 @@
 		2924275722C355BF003CDD9F /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2924275522C355BF003CDD9F /* TaskCell.xib */; };
 		2924275A22C35D8E003CDD9F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924275922C35D8E003CDD9F /* Task.swift */; };
 		292F3DDA22C480FD006B9592 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292F3DD922C480FD006B9592 /* NewTaskViewController.swift */; };
+		2939B32022D81B17009907A4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939B31F22D81B17009907A4 /* RegisterViewController.swift */; };
+		293E7CB622D5C728005E5DCF /* Extension+UIlabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293E7CB522D5C728005E5DCF /* Extension+UIlabel.swift */; };
+		296E1F6C22D2FDB800F668FB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E1F6A22D2FDB800F668FB /* StartViewController.swift */; };
+		296E1F7522D31FDF00F668FB /* DataStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296E1F7422D31FDF00F668FB /* DataStartCell.swift */; };
+		299F808D22D6D39F00DF4443 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F808C22D6D39F00DF4443 /* ForgotViewController.swift */; };
+		299F808F22D6E7D600DF4443 /* SuccesfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299F808E22D6E7D600DF4443 /* SuccesfulViewController.swift */; };
+		29A06E8622D340E600514868 /* StartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A06E8422D340E600514868 /* StartCell.swift */; };
+		29A06E8722D340E600514868 /* StartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29A06E8522D340E600514868 /* StartCell.xib */; };
+		29A086D222D4341F00741F2C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A086D122D4341F00741F2C /* LogInViewController.swift */; };
+		29F5672522DC14830079A557 /* HeaderTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F5672422DC14830079A557 /* HeaderTableView.xib */; };
+		29F5672722DC16070079A557 /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5672622DC16070079A557 /* HeaderTableView.swift */; };
 		F318523A65B15A8482237099 /* Pods_WorkList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0356A075FB4F2054D132D212 /* Pods_WorkList.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +47,17 @@
 		2924275922C35D8E003CDD9F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		292F3DD822C46CF7006B9592 /* WorkList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkList.entitlements; sourceTree = "<group>"; };
 		292F3DD922C480FD006B9592 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		2939B31F22D81B17009907A4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		293E7CB522D5C728005E5DCF /* Extension+UIlabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIlabel.swift"; sourceTree = "<group>"; };
+		296E1F6A22D2FDB800F668FB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		296E1F7422D31FDF00F668FB /* DataStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStartCell.swift; sourceTree = "<group>"; };
+		299F808C22D6D39F00DF4443 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		299F808E22D6E7D600DF4443 /* SuccesfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccesfulViewController.swift; sourceTree = "<group>"; };
+		29A06E8422D340E600514868 /* StartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCell.swift; sourceTree = "<group>"; };
+		29A06E8522D340E600514868 /* StartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartCell.xib; sourceTree = "<group>"; };
+		29A086D122D4341F00741F2C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		29F5672422DC14830079A557 /* HeaderTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderTableView.xib; sourceTree = "<group>"; };
+		29F5672622DC16070079A557 /* HeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
 		A6D3CF63B2D639F7255CFEBB /* Pods-WorkList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkList.debug.xcconfig"; path = "Target Support Files/Pods-WorkList/Pods-WorkList.debug.xcconfig"; sourceTree = "<group>"; };
 		D19C45D801C54A4DEB81928E /* Pods-WorkList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkList.release.xcconfig"; path = "Target Support Files/Pods-WorkList/Pods-WorkList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,8 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				292F3DD822C46CF7006B9592 /* WorkList.entitlements */,
+				293E7CB422D5C6F7005E5DCF /* Extension */,
+				296E1F6E22D2FDBE00F668FB /* UI */,
 				2924275822C35D35003CDD9F /* Model */,
-				2924275322C355A8003CDD9F /* Cell */,
 				2924275222C35553003CDD9F /* Controller */,
 				2924273E22C31B08003CDD9F /* Main.storyboard */,
 				2924274E22C32479003CDD9F /* GoogleService-Info.plist */,
@@ -99,8 +122,13 @@
 		2924275222C35553003CDD9F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				296E1F6A22D2FDB800F668FB /* StartViewController.swift */,
 				2924273C22C31B08003CDD9F /* TaskViewController.swift */,
 				292F3DD922C480FD006B9592 /* NewTaskViewController.swift */,
+				29A086D122D4341F00741F2C /* LogInViewController.swift */,
+				299F808C22D6D39F00DF4443 /* ForgotViewController.swift */,
+				299F808E22D6E7D600DF4443 /* SuccesfulViewController.swift */,
+				2939B31F22D81B17009907A4 /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +138,8 @@
 			children = (
 				2924275422C355BF003CDD9F /* TaskCell.swift */,
 				2924275522C355BF003CDD9F /* TaskCell.xib */,
+				29A06E8422D340E600514868 /* StartCell.swift */,
+				29A06E8522D340E600514868 /* StartCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -117,9 +147,36 @@
 		2924275822C35D35003CDD9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				296E1F7422D31FDF00F668FB /* DataStartCell.swift */,
 				2924275922C35D8E003CDD9F /* Task.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		293E7CB422D5C6F7005E5DCF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				293E7CB522D5C728005E5DCF /* Extension+UIlabel.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		296E1F6E22D2FDBE00F668FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				29F5672322DC14720079A557 /* View */,
+				2924275322C355A8003CDD9F /* Cell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		29F5672322DC14720079A557 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29F5672422DC14830079A557 /* HeaderTableView.xib */,
+				29F5672622DC16070079A557 /* HeaderTableView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B809DB14EF07C2BB9B2AC072 /* Frameworks */ = {
@@ -204,9 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A06E8722D340E600514868 /* StartCell.xib in Resources */,
 				2924274522C31B09003CDD9F /* LaunchScreen.storyboard in Resources */,
 				2924275722C355BF003CDD9F /* TaskCell.xib in Resources */,
 				2924274F22C32479003CDD9F /* GoogleService-Info.plist in Resources */,
+				29F5672522DC14830079A557 /* HeaderTableView.xib in Resources */,
 				2924274222C31B09003CDD9F /* Assets.xcassets in Resources */,
 				2924274022C31B08003CDD9F /* Main.storyboard in Resources */,
 			);
@@ -261,11 +320,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A06E8622D340E600514868 /* StartCell.swift in Sources */,
 				2924275A22C35D8E003CDD9F /* Task.swift in Sources */,
+				29A086D222D4341F00741F2C /* LogInViewController.swift in Sources */,
 				292F3DDA22C480FD006B9592 /* NewTaskViewController.swift in Sources */,
+				29F5672722DC16070079A557 /* HeaderTableView.swift in Sources */,
+				299F808F22D6E7D600DF4443 /* SuccesfulViewController.swift in Sources */,
 				2924273D22C31B08003CDD9F /* TaskViewController.swift in Sources */,
 				2924275622C355BF003CDD9F /* TaskCell.swift in Sources */,
 				2924273B22C31B08003CDD9F /* AppDelegate.swift in Sources */,
+				296E1F7522D31FDF00F668FB /* DataStartCell.swift in Sources */,
+				293E7CB622D5C728005E5DCF /* Extension+UIlabel.swift in Sources */,
+				2939B32022D81B17009907A4 /* RegisterViewController.swift in Sources */,
+				299F808D22D6D39F00DF4443 /* ForgotViewController.swift in Sources */,
+				296E1F6C22D2FDB800F668FB /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

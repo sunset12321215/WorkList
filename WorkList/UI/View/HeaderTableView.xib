@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderTableView" customModule="WorkList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qtA-SW-Yvd">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xin Chào" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xV1-mo-JdB">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="xV1-mo-JdB" firstAttribute="leading" secondItem="qtA-SW-Yvd" secondAttribute="leading" id="1xE-AM-fYc"/>
+                        <constraint firstItem="xV1-mo-JdB" firstAttribute="top" secondItem="qtA-SW-Yvd" secondAttribute="top" id="2t0-4D-qY7"/>
+                        <constraint firstAttribute="bottom" secondItem="xV1-mo-JdB" secondAttribute="bottom" id="Sql-uR-Z1c"/>
+                        <constraint firstAttribute="trailing" secondItem="xV1-mo-JdB" secondAttribute="trailing" id="d8t-Tk-n3j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qtA-SW-Yvd" secondAttribute="bottom" id="7yH-Kg-Ntz"/>
+                <constraint firstItem="qtA-SW-Yvd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FfH-mI-DB1"/>
+                <constraint firstItem="qtA-SW-Yvd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Jj9-H6-BwT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="qtA-SW-Yvd" secondAttribute="trailing" id="mRo-OO-dem"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="qtA-SW-Yvd" id="dKn-c1-1YH"/>
+                <outlet property="label" destination="xV1-mo-JdB" id="tpI-tn-1A7"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+</document>

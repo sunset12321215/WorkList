@@ -10,6 +10,10 @@ import UIKit
 
 final class NewTaskViewController: UIViewController {
     
+<<<<<<< HEAD
+=======
+    //  MARK: - Outlet
+>>>>>>> Complete Push Pull FireBase
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var newTaskTextField: UITextField!
     @IBOutlet private weak var descriptionTextView: UITextView!
@@ -17,6 +21,7 @@ final class NewTaskViewController: UIViewController {
     @IBOutlet private weak var updateButton: UIButton!
     @IBOutlet private weak var addTaskButton: UIButton!
     
+<<<<<<< HEAD
     var sectionTitle: String!
     var task: Task?
     var ref: DatabaseReference!
@@ -28,6 +33,23 @@ final class NewTaskViewController: UIViewController {
         let _ = isUpdate ? prepareForUpdate() : prepareForNewTask()
     }
     
+=======
+    //  MARK: - Variable
+    var sectionTitle: String?
+    var task: Task?
+    var ref: DatabaseReference?
+    var isUpdate: Bool?
+    
+    //  MARK: - Life Cycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupRef()
+        let _ = isUpdate ?? true ? prepareForUpdate() : prepareForNewTask()
+        navigationController?.navigationBar.prefersLargeTitles = false
+    }
+    
+    //  MARK: - Setup View
+>>>>>>> Complete Push Pull FireBase
     private func setupRef() {
         ref = Database.database().reference()
     }
@@ -37,7 +59,10 @@ final class NewTaskViewController: UIViewController {
         titleLabel.text = "Update this Task"
         descriptionTextView.text = task?.description
         addTaskButton.isEnabled = false
+<<<<<<< HEAD
         
+=======
+>>>>>>> Complete Push Pull FireBase
         let date = Date(timeIntervalSince1970: TimeInterval(task?.timeInterval ?? 0))
         datePicker.setDate(date, animated: true)
     }
@@ -46,6 +71,10 @@ final class NewTaskViewController: UIViewController {
         updateButton.isEnabled = false
     }
     
+<<<<<<< HEAD
+=======
+    //  MARK: - Action
+>>>>>>> Complete Push Pull FireBase
     @IBAction func updateAction(_ sender: Any) {
         task?.todo = newTaskTextField.text ?? ""
         let date = datePicker?.date
@@ -54,8 +83,13 @@ final class NewTaskViewController: UIViewController {
         let isDone = task?.isDone ?? false
         let todo = task?.todo ?? ""
         let description = task?.description ?? ""
+<<<<<<< HEAD
         ref.child("Task")
             .child(sectionTitle)
+=======
+        ref?.child("Task")
+            .child(sectionTitle ?? "")
+>>>>>>> Complete Push Pull FireBase
             .child(key).updateChildValues(["isDone": isDone,
                                            "todo": todo,
                                            "description": description,
@@ -67,9 +101,16 @@ final class NewTaskViewController: UIViewController {
         task?.todo = newTaskTextField.text ?? ""
         let date = datePicker?.date ?? Date()
         let timeInterval = date.timeIntervalSince1970
+<<<<<<< HEAD
         let dateComponents = Calendar.current.dateComponents([.day, .month, .year, .hour, .minute, .second], from: date)
         let keyOfDate = "Ngày \(dateComponents.day ?? 0) Tháng \(dateComponents.month ?? 0) Năm \(dateComponents.year ?? 0)"
         let keyOfValue = ref.childByAutoId().key ?? ""
+=======
+        let dateComponents = Calendar.current.dateComponents([.day, .month, .year, .hour, .minute, .second],
+                                                             from: date)
+        let keyOfDate = "Ngày \(dateComponents.day ?? 0) Tháng \(dateComponents.month ?? 0) Năm \(dateComponents.year ?? 0)"
+        let keyOfValue = ref?.childByAutoId().key ?? ""
+>>>>>>> Complete Push Pull FireBase
         let values = [
             "isDone": false,
             "todo": newTaskTextField.text ?? "",
@@ -77,7 +118,11 @@ final class NewTaskViewController: UIViewController {
             "timeInterval": timeInterval
             ] as [String : Any]
         
+<<<<<<< HEAD
         ref.child("Task")
+=======
+        ref?.child("Task")
+>>>>>>> Complete Push Pull FireBase
             .child(keyOfDate)
             .child(keyOfValue).setValue(values)
         navigationController?.popViewController(animated: true)

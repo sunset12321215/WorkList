@@ -50,7 +50,10 @@ playground.xcworkspace
 
 AFError.swift 
 Pods
+<<<<<<< HEAD
 Assets.xcassets
+=======
+>>>>>>> Complete Push Pull FireBase
 
 # Carthage
 #
