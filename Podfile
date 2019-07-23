@@ -9,7 +9,15 @@ target 'WorkList' do
 
 pod 'Firebase/Core'
 pod 'Firebase/Database'
+<<<<<<< HEAD
 pod 'Then'
 pod 'Reusable' 
+=======
+pod 'Firebase/Auth'
+pod 'Then'
+pod 'Reusable' 
+pod 'MGSwipeTableCell'
+
+>>>>>>> Complete Push Pull FireBase
 
 end

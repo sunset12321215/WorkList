@@ -11,3 +11,8 @@
 @import Reusable;
 @import Then;
 @import UserNotifications;
+<<<<<<< HEAD
+=======
+@import MGSwipeTableCell;
+@import FirebaseAuth;
+>>>>>>> Complete Push Pull FireBase
